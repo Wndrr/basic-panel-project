@@ -1,0 +1,1 @@
+docker stop  ident-ent-exo1;docker rm  ident-ent-exo1;docker build  -t  ident-ent-exo1 .;docker run --name  ident-ent-exo1 -p 8090:80  ident-ent-exo1
