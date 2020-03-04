@@ -1,0 +1,1 @@
+docker stop  cclech-exo1;docker rm  cclech-exo1;docker build  -t  cclech-exo1 .;docker run --name  cclech-exo1 -p 8090:80  cclech-exo1; start http://localhost:8090/index.php

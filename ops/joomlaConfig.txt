@@ -1,0 +1,9 @@
+db
+	host = 'joomladb';              // This is normally set to localhost
+	user = 'root';                       // DB username
+	password = 'pass';                   // DB password
+	db = 'joomladb';     
+joomla
+	user: qsdf
+	passwd: qsdf
+	email: mathieu@viales.fr
