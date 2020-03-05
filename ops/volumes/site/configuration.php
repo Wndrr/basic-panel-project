@@ -1,7 +1,7 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
+	public $offline_message = 'Ce site est en maintenance.<br /> Merci de revenir ultérieurement.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
 	public $sitename = 'qsdf';
@@ -16,10 +16,10 @@ class JConfig {
 	public $host = 'joomladb';
 	public $user = 'root';
 	public $password = 'pass';
-	public $db = 'joomladb';
-	public $dbprefix = 'juflm_';
+	public $db = 'ead';
+	public $dbprefix = 'q4n5x_';
 	public $live_site = '';
-	public $secret = 'oqIbzoFudeblRmyV';
+	public $secret = 'ZvnaqVqrcC6u0NgW';
 	public $gzip = '0';
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -32,7 +32,7 @@ class JConfig {
 	public $offset = 'UTC';
 	public $mailonline = '1';
 	public $mailer = 'mail';
-	public $mailfrom = 'mathieu@viales.fr';
+	public $mailfrom = 'qsdf@qsdf';
 	public $fromname = 'qsdf';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
@@ -45,7 +45,7 @@ class JConfig {
 	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $cache_platformprefix = '0';
-	public $MetaDesc = 'qsdf';
+	public $MetaDesc = '';
 	public $MetaKeys = '';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';

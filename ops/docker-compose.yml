@@ -11,15 +11,15 @@ services:
       - "./volumes/site:/var/www/html"
     environment:
       JOOMLA_DB_HOST: joomladb
-      JOOMLA_DB_PASSWORD: aVerySecurePasswordTh4atIs_Complex
+      JOOMLA_DB_PASSWORD: pass
   joomladb:
     image: bitnami/mariadb:latest
     ports:
       - 3306:3306
     restart: always
     volumes:
-      - "./volumes/data:/var/lib/mysql"
+      - "./volumes/data:/bitnami/mariadb/data"
     environment:
-      MARIADB_DATABASE: joomladb
+      MARIADB_DATABASE: ead
       MARIADB_ROOT_USER: root
       MARIADB_ROOT_PASSWORD: pass
