@@ -6,4 +6,8 @@ db
 joomla
 	user: qsdf
 	passwd: qsdf
-	email: mathieu@viales.fr
+	email: cassandra.clech@edu.univ-fcomte.fr
+	
+	
+dump sql (PS1): docker exec 8751adffe254 mysqldump -u root --password=pass ead > mysql.dump
+	
